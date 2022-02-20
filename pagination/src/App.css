@@ -1,0 +1,108 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul{
+  list-style: none;
+}
+
+.point {
+  display: flex;
+  padding: 10px 15px;
+  margin-right: 4px;
+  font-size: 1.1rem;
+  text-align: center;
+  user-select: none;
+}
+
+.point:last-child {
+  margin-right: 0px;
+}
+
+
+
+
+
+
+.mr4{
+  margin-right: 4px;
+}
+
+.jcc{
+  justify-content: center;
+}
+
+.aic{
+  align-items: center;
+}
+
+.side{
+  display: flex;
+  padding: 10px 15px;
+  border: 1px solid skyblue;
+  background: transparent;
+  outline: none;
+  border-radius: 4px;
+  min-width: 20px;
+  cursor: pointer;
+}
+
+.side:hover{
+  background: skyblue;
+}
+
+.paginationItem{
+  display: flex;
+  justify-content: center;
+  padding: 10px 15px;
+  border: 1px solid skyblue;
+  color: #000;
+  border-radius: 4px;
+  font-size: 1.1rem;
+  min-width: 50px;
+  text-align: center;
+  user-select: none;
+  cursor: pointer;
+  background: transparent;
+}
+
+.next, .prev{
+  display: flex;
+  justify-content: center;
+  padding: 10px 15px;
+  border: 1px solid skyblue;
+  color: #000;
+  border-radius: 4px;
+  font-size: 1.1rem;
+  min-width: 50px;
+  text-align: center;
+  user-select: none;
+  cursor: pointer;
+  background: transparent;
+}
+
+.paginationItem:hover{
+  background: skyblue;
+
+}
+
+.current{
+  background: skyblue;
+}
+
+.cup{
+  cursor: pointer;
+}
+
+.df{
+  display: flex;
+}
+
+
+@media (max-width: 720px) {
+  .point, .side, .paginationItem {
+    display: none;
+  }
+}
